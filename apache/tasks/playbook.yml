@@ -1,0 +1,7 @@
+- name: Playbook to install Apache2
+  hosts: all
+  become: true
+  roles:
+    - apache
+  tasks:
+    - include_tasks: install_apache.yml

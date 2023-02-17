@@ -1,0 +1,6 @@
+- name: Test Apache role
+  hosts: apache_servers
+  become: true
+
+  roles:
+    - apache

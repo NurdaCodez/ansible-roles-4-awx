@@ -1,0 +1,4 @@
+---
+# vars file for apache
+
+apache_server_name: 34.71.64.65
